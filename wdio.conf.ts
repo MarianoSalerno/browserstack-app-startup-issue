@@ -1,0 +1,61 @@
+export const config = {
+  runner: 'local',
+  tsConfigPath: './test/tsconfig.json',
+  port: 443,
+  user: process.env.BROWSERSTACK_USERNAME,
+  key: process.env.BROWSERSTACK_ACCESS_KEY,
+  hostname: 'hub.browserstack.com',
+  specs: ['./test/e2e/**/*.js'],
+  // We had to disable the whole suite due to flakyness, we'll reenable on MBNXT-21850
+  exclude: [],
+  maxInstances: 1,
+  logLevel: 'info',
+  bail: 0,
+  waitforTimeout: 15000,
+  connectionRetryTimeout: 60000,
+  connectionRetryCount: 1,
+  framework: 'mocha',
+  reporters: ['spec'],
+  mochaOpts: {
+    ui: 'bdd',
+    timeout: 10000000,
+    retries: 0,
+  },
+  capabilities: [
+    {
+      platformName: 'iOS',
+      'bstack:options': {
+        projectName: 'Mobile Expo',
+        buildName: 'e2e tests',
+        debug: true,
+        networkLogs: true,
+        networkLogsOptions: {
+          captureContent: true,
+        },
+        deviceLogs: true,
+        appProfiling: true,
+        realMobile: true,
+        appiumVersion: '2.18.0',
+        gpsLocation: '40.7580,-73.9855',
+        deviceName: 'iPhone 15',
+        platformVersion: '17',
+      },
+      'appium:app': process.env.BROWSERSTACK_IOS_APP,
+      'appium:settings[snapshotMaxDepth]': 62,
+      'appium:customSnapshotTimeout': 5000,
+    },
+  ],
+  services: [
+    [
+      'browserstack',
+      {
+        browserstackLocal: false,
+        testObservability: true,
+        percy: false,
+        autoGrantPermissions: true,
+        autoDismissAlerts: true,
+        fullReset: true,
+      },
+    ],
+  ],
+};

@@ -1,0 +1,1602 @@
+Execution of 2 workers started at 2025-09-15T18:55:57.779Z
+
+2025-09-15T18:55:57.986Z INFO @wdio/browserstack-service: BrowserStack service started with id: 9d71d710-cd61-460a-81fb-e7f2b47d9cbb
+2025-09-15T18:55:57.987Z INFO @wdio/cli:launcher: Run onPrepare hook
+2025-09-15T18:55:58.538Z WARN @wdio/browserstack-service: Accessibility Automation will run only on Chrome browsers.
+2025-09-15T18:55:59.413Z INFO @wdio/browserstack-service: Testhub started with id: 1rvngl27uyrh2v9sbragqflytrforto2tclwietm
+2025-09-15T18:55:59.414Z INFO @wdio/browserstack-service: browserstackLocal is not enabled - skipping...
+2025-09-15T18:55:59.416Z INFO @wdio/cli:launcher: Run onWorkerStart hook
+2025-09-15T18:55:59.416Z INFO @wdio/xvfb: XvfbManager.init() called
+2025-09-15T18:55:59.416Z INFO @wdio/xvfb: Xvfb not needed on current platform
+2025-09-15T18:55:59.417Z INFO @wdio/local-runner: Start worker 0-0 with arg: run ./wdio.conf.ts
+2025-09-15T18:55:59.420Z INFO @wdio/xvfb:ProcessFactory: xvfb-run found in PATH
+2025-09-15T18:55:59.421Z INFO @wdio/xvfb:ProcessFactory: ProcessFactory: shouldRun=false, isAvailable=true
+2025-09-15T18:55:59.421Z INFO @wdio/xvfb:ProcessFactory: Creating worker process with regular fork
+[0-0] 2025-09-15T18:55:59.928Z INFO @wdio/local-runner: Run worker command: run
+2025-09-15T18:56:00.408Z INFO @wdio/cli: [0-0] SKIPPED in iOS on iOS - file:///test/e2e/helpers/common.js
+2025-09-15T18:56:00.408Z INFO @wdio/cli:launcher: Run onWorkerEnd hook
+2025-09-15T18:56:00.408Z INFO @wdio/cli:launcher: Run onWorkerStart hook
+2025-09-15T18:56:00.409Z INFO @wdio/local-runner: Start worker 0-1 with arg: run ./wdio.conf.ts
+2025-09-15T18:56:00.411Z INFO @wdio/xvfb:ProcessFactory: xvfb-run found in PATH
+2025-09-15T18:56:00.411Z INFO @wdio/xvfb:ProcessFactory: ProcessFactory: shouldRun=false, isAvailable=true
+2025-09-15T18:56:00.411Z INFO @wdio/xvfb:ProcessFactory: Creating worker process with regular fork
+[0-1] 2025-09-15T18:56:00.876Z INFO @wdio/local-runner: Run worker command: run
+[0-1] RUNNING in iOS on iOS - file:///test/e2e/location.e2e.js
+[0-1] 2025-09-15T18:56:01.082Z INFO webdriver: Initiate new session using the WebDriver protocol
+[0-1] 2025-09-15T18:56:01.083Z INFO @wdio/utils: Connecting to existing driver at https://hub.browserstack.com:443/wd/hub
+[0-1] 2025-09-15T18:56:01.084Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session
+[0-1] 2025-09-15T18:56:43.219Z INFO webdriver: COMMAND executeScript("browserstack_executor: {"action":"annotate","arguments":{"data":"ObservabilitySync:1757962603218","level":"debug"}}", <object>)
+[0-1] 2025-09-15T18:56:43.219Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/execute/sync
+[0-1] 2025-09-15T18:56:43.219Z INFO webdriver: DATA {
+[0-1]   script: 'browserstack_executor: {"action":"annotate","arguments":{"data":"ObservabilitySync:1757962603218","level":"debug"}}',
+[0-1]   args: []
+[0-1] }
+[0-1] 2025-09-15T18:56:44.416Z INFO webdriver: RESULT ObservabilitySync:1757962603218
+[0-1] 2025-09-15T18:56:45.782Z INFO @wdio/browserstack-service:  session: https://app-automate.browserstack.com/builds/2495109b0bca0d33ae7d85c1af940b334e45d771/sessions/6abf4ba213981d836552755ee0e149a39a9fef3b
+[0-1] 2025-09-15T18:56:45.785Z INFO @wdio/browserstack-service: Update job with sessionId 6abf4ba213981d836552755ee0e149a39a9fef3b
+[0-1] 2025-09-15T18:56:46.253Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:56:46.253Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:56:46.253Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:56:46.620Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:56:46.626Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:56:46.626Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:56:46.626Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:56:47.532Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:56:47.535Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:56:47.536Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:56:47.536Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:56:47.842Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:56:47.846Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:56:47.846Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:56:47.846Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:56:48.148Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:56:48.151Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:56:48.152Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:56:48.152Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:56:48.438Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:56:48.442Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:56:48.442Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:56:48.442Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:56:48.752Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:56:48.757Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:56:48.757Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:56:48.757Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:56:49.067Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:56:49.069Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:56:49.069Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:56:49.070Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:56:49.381Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:56:49.384Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:56:49.385Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:56:49.385Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:56:49.690Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:56:49.695Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:56:49.695Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:56:49.695Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:56:50.012Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:56:50.016Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:56:50.016Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:56:50.016Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:56:50.333Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:56:50.337Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:56:50.337Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:56:50.337Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:56:50.635Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:56:50.639Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:56:50.639Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:56:50.640Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:56:50.959Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:56:50.961Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:56:50.962Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:56:50.962Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:56:51.312Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:56:51.317Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:56:51.317Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:56:51.317Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:56:51.603Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:56:51.606Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:56:51.606Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:56:51.606Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:56:51.901Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:56:51.904Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:56:51.904Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:56:51.904Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:56:52.218Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:56:52.222Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:56:52.222Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:56:52.222Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:56:52.525Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:56:52.529Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:56:52.529Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:56:52.529Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:56:52.834Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:56:52.836Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:56:52.837Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:56:52.837Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:56:53.198Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:56:53.201Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:56:53.201Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:56:53.201Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:56:53.495Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:56:53.499Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:56:53.499Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:56:53.499Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:56:53.812Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:56:53.815Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:56:53.815Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:56:53.815Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:56:54.112Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:56:54.116Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:56:54.116Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:56:54.116Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:56:54.421Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:56:54.425Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:56:54.425Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:56:54.425Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:56:54.726Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:56:54.729Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:56:54.729Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:56:54.729Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:56:55.038Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:56:55.039Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:56:55.039Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:56:55.039Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:56:55.331Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:56:55.335Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:56:55.335Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:56:55.335Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:56:55.639Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:56:55.643Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:56:55.644Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:56:55.644Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:56:55.931Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:56:55.934Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:56:55.934Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:56:55.934Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:56:56.274Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:56:56.280Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:56:56.280Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:56:56.280Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:56:56.607Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:56:56.610Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:56:56.611Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:56:56.611Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:56:56.908Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:56:56.911Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:56:56.912Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:56:56.912Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:56:57.202Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:56:57.206Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:56:57.206Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:56:57.206Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:56:57.518Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:56:57.523Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:56:57.523Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:56:57.523Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:56:57.826Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:56:57.829Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:56:57.829Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:56:57.829Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:56:58.136Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:56:58.139Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:56:58.139Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:56:58.139Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:56:58.856Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:56:58.858Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:56:58.859Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:56:58.859Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:56:59.162Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:56:59.165Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:56:59.165Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:56:59.165Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:56:59.454Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:56:59.456Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:56:59.457Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:56:59.457Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:56:59.759Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:56:59.762Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:56:59.762Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:56:59.762Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:57:00.060Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:57:00.062Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:57:00.062Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:57:00.062Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:57:00.376Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:57:00.380Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:57:00.380Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:57:00.380Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:57:00.691Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:57:00.694Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:57:00.694Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:57:00.694Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:57:00.996Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:57:00.999Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:57:00.999Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:57:00.999Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:57:01.302Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:57:01.305Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:57:01.306Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:57:01.306Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:57:01.607Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:57:01.610Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:57:01.611Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:57:01.611Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:57:01.934Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:57:01.937Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:57:01.937Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:57:01.937Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:57:02.239Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:57:02.242Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:57:02.243Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:57:02.243Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:57:02.589Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:57:02.592Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:57:02.592Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:57:02.592Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:57:02.891Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:57:02.894Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:57:02.894Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:57:02.894Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:57:03.201Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:57:03.206Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:57:03.206Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:57:03.206Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:57:03.494Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:57:03.495Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:57:03.495Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:57:03.495Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:57:03.795Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:57:03.798Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:57:03.798Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:57:03.798Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:57:04.095Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:57:04.098Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:57:04.099Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:57:04.099Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:57:04.390Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:57:04.392Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:57:04.392Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:57:04.392Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:57:04.695Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:57:04.697Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:57:04.697Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:57:04.697Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:57:04.991Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:57:04.994Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:57:04.994Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:57:04.994Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:57:05.303Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:57:05.307Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:57:05.307Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:57:05.307Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:57:05.600Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:57:05.603Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:57:05.603Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:57:05.603Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:57:05.911Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:57:05.915Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:57:05.915Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:57:05.915Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:57:06.212Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:57:06.213Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:57:06.213Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:57:06.213Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:57:06.505Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:57:06.508Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:57:06.508Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:57:06.508Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:57:06.793Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:57:06.797Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:57:06.797Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:57:06.797Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:57:07.077Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:57:07.080Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:57:07.080Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:57:07.080Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:57:07.377Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:57:07.380Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:57:07.380Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:57:07.380Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:57:07.668Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:57:07.670Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:57:07.670Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:57:07.670Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:57:08.069Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:57:08.072Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:57:08.072Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:57:08.072Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:57:08.379Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:57:08.383Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:57:08.383Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:57:08.383Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:57:08.677Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:57:08.680Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:57:08.680Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:57:08.680Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:57:08.982Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:57:08.984Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:57:08.984Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:57:08.984Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:57:09.297Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:57:09.301Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:57:09.301Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:57:09.301Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:57:09.607Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:57:09.610Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:57:09.610Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:57:09.610Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:57:09.902Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:57:09.906Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:57:09.906Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:57:09.906Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:57:10.201Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:57:10.204Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:57:10.204Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:57:10.204Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:57:10.489Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:57:10.491Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:57:10.492Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:57:10.492Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:57:10.784Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:57:10.787Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:57:10.788Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:57:10.788Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:57:11.090Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:57:11.091Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:57:11.091Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:57:11.091Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:57:11.434Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:57:11.436Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:57:11.436Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:57:11.436Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:57:11.731Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:57:11.732Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:57:11.732Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:57:11.732Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:57:12.059Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:57:12.061Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:57:12.062Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:57:12.062Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:57:12.345Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:57:12.348Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:57:12.348Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:57:12.348Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:57:12.651Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:57:12.654Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:57:12.655Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:57:12.655Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:57:12.998Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:57:13.001Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:57:13.001Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:57:13.001Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:57:13.509Z INFO webdriver: RESULT {
+[0-1]   'element-6066-11e4-a52e-4f735466cecf': 'E31E0000-0000-0000-2200-000000000000',
+[0-1]   ELEMENT: 'E31E0000-0000-0000-2200-000000000000'
+[0-1] }
+[0-1] 2025-09-15T18:57:13.511Z INFO webdriver: COMMAND isElementDisplayed("E31E0000-0000-0000-2200-000000000000")
+[0-1] 2025-09-15T18:57:13.511Z INFO webdriver: [GET] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element/E31E0000-0000-0000-2200-000000000000/displayed
+[0-1] 2025-09-15T18:57:14.906Z INFO webdriver: RESULT true
+[0-1] 2025-09-15T18:57:14.907Z INFO webdriver: COMMAND elementClick("E31E0000-0000-0000-2200-000000000000")
+[0-1] 2025-09-15T18:57:14.907Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element/E31E0000-0000-0000-2200-000000000000/click
+[0-1] 2025-09-15T18:57:15.710Z INFO webdriver: RESULT null
+[0-1] 2025-09-15T18:57:15.711Z INFO webdriver: COMMAND findElement("accessibility id", "Skip")
+[0-1] 2025-09-15T18:57:15.711Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:57:15.711Z INFO webdriver: DATA { using: 'accessibility id', value: 'Skip' }
+[0-1] 2025-09-15T18:57:16.057Z INFO webdriver: RESULT {
+[0-1]   'element-6066-11e4-a52e-4f735466cecf': '49000000-0000-0000-AC0D-000000000000',
+[0-1]   ELEMENT: '49000000-0000-0000-AC0D-000000000000'
+[0-1] }
+[0-1] 2025-09-15T18:57:16.058Z INFO webdriver: COMMAND findElements("accessibility id", "Skip")
+[0-1] 2025-09-15T18:57:16.059Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/elements
+[0-1] 2025-09-15T18:57:16.059Z INFO webdriver: DATA { using: 'accessibility id', value: 'Skip' }
+[0-1] 2025-09-15T18:57:16.438Z INFO webdriver: RESULT [
+[0-1]   {
+[0-1]     'element-6066-11e4-a52e-4f735466cecf': '49000000-0000-0000-AC0D-000000000000',
+[0-1]     ELEMENT: '49000000-0000-0000-AC0D-000000000000'
+[0-1]   }
+[0-1] ]
+[0-1] 2025-09-15T18:57:16.440Z INFO webdriver: COMMAND findElement("accessibility id", "Skip")
+[0-1] 2025-09-15T18:57:16.440Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:57:16.440Z INFO webdriver: DATA { using: 'accessibility id', value: 'Skip' }
+[0-1] 2025-09-15T18:57:16.863Z INFO webdriver: RESULT {
+[0-1]   'element-6066-11e4-a52e-4f735466cecf': '49000000-0000-0000-AC0D-000000000000',
+[0-1]   ELEMENT: '49000000-0000-0000-AC0D-000000000000'
+[0-1] }
+[0-1] 2025-09-15T18:57:16.865Z INFO webdriver: COMMAND elementClick("49000000-0000-0000-AC0D-000000000000")
+[0-1] 2025-09-15T18:57:16.865Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element/49000000-0000-0000-AC0D-000000000000/click
+[0-1] 2025-09-15T18:57:17.601Z INFO webdriver: RESULT null
+[0-1] 2025-09-15T18:57:17.601Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:57:17.601Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:57:17.601Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:57:17.931Z INFO webdriver: RESULT {
+[0-1]   'element-6066-11e4-a52e-4f735466cecf': '6E000000-0000-0000-AC0D-000000000000',
+[0-1]   ELEMENT: '6E000000-0000-0000-AC0D-000000000000'
+[0-1] }
+[0-1] 2025-09-15T18:57:17.932Z INFO webdriver: COMMAND findElements("accessibility id", "Allow")
+[0-1] 2025-09-15T18:57:17.933Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/elements
+[0-1] 2025-09-15T18:57:17.933Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:57:18.333Z INFO webdriver: RESULT [
+[0-1]   {
+[0-1]     'element-6066-11e4-a52e-4f735466cecf': '6E000000-0000-0000-AC0D-000000000000',
+[0-1]     ELEMENT: '6E000000-0000-0000-AC0D-000000000000'
+[0-1]   }
+[0-1] ]
+[0-1] 2025-09-15T18:57:18.334Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:57:18.334Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:57:18.334Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:57:18.684Z INFO webdriver: RESULT {
+[0-1]   'element-6066-11e4-a52e-4f735466cecf': '6E000000-0000-0000-AC0D-000000000000',
+[0-1]   ELEMENT: '6E000000-0000-0000-AC0D-000000000000'
+[0-1] }
+[0-1] 2025-09-15T18:57:18.686Z INFO webdriver: COMMAND elementClick("6E000000-0000-0000-AC0D-000000000000")
+[0-1] 2025-09-15T18:57:18.686Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element/6E000000-0000-0000-AC0D-000000000000/click
+[0-1] 2025-09-15T18:57:19.434Z INFO webdriver: RESULT null
+[0-1] 2025-09-15T18:57:19.434Z INFO webdriver: COMMAND findElement("accessibility id", "Allow While Using App")
+[0-1] 2025-09-15T18:57:19.434Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:57:19.434Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow While Using App' }
+[0-1] 2025-09-15T18:57:20.112Z INFO webdriver: RESULT {
+[0-1]   'element-6066-11e4-a52e-4f735466cecf': '221F0000-0000-0000-2200-000000000000',
+[0-1]   ELEMENT: '221F0000-0000-0000-2200-000000000000'
+[0-1] }
+[0-1] 2025-09-15T18:57:20.113Z INFO webdriver: COMMAND findElements("accessibility id", "Allow While Using App")
+[0-1] 2025-09-15T18:57:20.113Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/elements
+[0-1] 2025-09-15T18:57:20.113Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow While Using App' }
+[0-1] 2025-09-15T18:57:20.637Z INFO webdriver: RESULT [
+[0-1]   {
+[0-1]     'element-6066-11e4-a52e-4f735466cecf': '221F0000-0000-0000-2200-000000000000',
+[0-1]     ELEMENT: '221F0000-0000-0000-2200-000000000000'
+[0-1]   }
+[0-1] ]
+[0-1] 2025-09-15T18:57:20.640Z INFO webdriver: COMMAND findElement("accessibility id", "Allow While Using App")
+[0-1] 2025-09-15T18:57:20.640Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:57:20.640Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow While Using App' }
+[0-1] 2025-09-15T18:57:21.225Z INFO webdriver: RESULT {
+[0-1]   'element-6066-11e4-a52e-4f735466cecf': '221F0000-0000-0000-2200-000000000000',
+[0-1]   ELEMENT: '221F0000-0000-0000-2200-000000000000'
+[0-1] }
+[0-1] 2025-09-15T18:57:21.227Z INFO webdriver: COMMAND elementClick("221F0000-0000-0000-2200-000000000000")
+[0-1] 2025-09-15T18:57:21.227Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element/221F0000-0000-0000-2200-000000000000/click
+[0-1] 2025-09-15T18:57:22.008Z INFO webdriver: RESULT null
+[0-1] 2025-09-15T18:57:22.008Z INFO webdriver: COMMAND findElement("accessibility id", "Enable")
+[0-1] 2025-09-15T18:57:22.008Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:57:22.008Z INFO webdriver: DATA { using: 'accessibility id', value: 'Enable' }
+[0-1] 2025-09-15T18:57:22.364Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:57:22.366Z INFO webdriver: COMMAND findElements("accessibility id", "Enable")
+[0-1] 2025-09-15T18:57:22.366Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/elements
+[0-1] 2025-09-15T18:57:22.366Z INFO webdriver: DATA { using: 'accessibility id', value: 'Enable' }
+[0-1] 2025-09-15T18:57:22.740Z INFO webdriver: RESULT []
+[0-1] 2025-09-15T18:57:22.743Z INFO webdriver: COMMAND findElements("accessibility id", "Enable")
+[0-1] 2025-09-15T18:57:22.743Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/elements
+[0-1] 2025-09-15T18:57:22.743Z INFO webdriver: DATA { using: 'accessibility id', value: 'Enable' }
+[0-1] 2025-09-15T18:57:23.086Z INFO webdriver: RESULT []
+[0-1] 2025-09-15T18:57:23.088Z INFO webdriver: COMMAND findElements("accessibility id", "Enable")
+[0-1] 2025-09-15T18:57:23.088Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/elements
+[0-1] 2025-09-15T18:57:23.088Z INFO webdriver: DATA { using: 'accessibility id', value: 'Enable' }
+[0-1] 2025-09-15T18:57:23.455Z INFO webdriver: RESULT []
+[0-1] 2025-09-15T18:57:23.457Z INFO webdriver: COMMAND findElements("accessibility id", "Enable")
+[0-1] 2025-09-15T18:57:23.458Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/elements
+[0-1] 2025-09-15T18:57:23.458Z INFO webdriver: DATA { using: 'accessibility id', value: 'Enable' }
+[0-1] 2025-09-15T18:57:23.837Z INFO webdriver: RESULT []
+[0-1] 2025-09-15T18:57:23.839Z INFO webdriver: COMMAND findElements("accessibility id", "Enable")
+[0-1] 2025-09-15T18:57:23.839Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/elements
+[0-1] 2025-09-15T18:57:23.839Z INFO webdriver: DATA { using: 'accessibility id', value: 'Enable' }
+[0-1] 2025-09-15T18:57:24.258Z INFO webdriver: RESULT [
+[0-1]   {
+[0-1]     'element-6066-11e4-a52e-4f735466cecf': 'EC000000-0000-0000-AC0D-000000000000',
+[0-1]     ELEMENT: 'EC000000-0000-0000-AC0D-000000000000'
+[0-1]   }
+[0-1] ]
+[0-1] 2025-09-15T18:57:24.260Z INFO webdriver: COMMAND findElement("accessibility id", "Enable")
+[0-1] 2025-09-15T18:57:24.261Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:57:24.261Z INFO webdriver: DATA { using: 'accessibility id', value: 'Enable' }
+[0-1] 2025-09-15T18:57:24.661Z INFO webdriver: RESULT {
+[0-1]   'element-6066-11e4-a52e-4f735466cecf': 'EC000000-0000-0000-AC0D-000000000000',
+[0-1]   ELEMENT: 'EC000000-0000-0000-AC0D-000000000000'
+[0-1] }
+[0-1] 2025-09-15T18:57:24.662Z INFO webdriver: COMMAND elementClick("EC000000-0000-0000-AC0D-000000000000")
+[0-1] 2025-09-15T18:57:24.663Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element/EC000000-0000-0000-AC0D-000000000000/click
+[0-1] 2025-09-15T18:57:25.376Z INFO webdriver: RESULT null
+[0-1] 2025-09-15T18:57:25.376Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:57:25.376Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:57:25.376Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:57:25.892Z INFO webdriver: RESULT {
+[0-1]   'element-6066-11e4-a52e-4f735466cecf': '471F0000-0000-0000-2200-000000000000',
+[0-1]   ELEMENT: '471F0000-0000-0000-2200-000000000000'
+[0-1] }
+[0-1] 2025-09-15T18:57:25.894Z INFO webdriver: COMMAND findElements("accessibility id", "Allow")
+[0-1] 2025-09-15T18:57:25.894Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/elements
+[0-1] 2025-09-15T18:57:25.894Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:57:26.421Z INFO webdriver: RESULT [
+[0-1]   {
+[0-1]     'element-6066-11e4-a52e-4f735466cecf': '471F0000-0000-0000-2200-000000000000',
+[0-1]     ELEMENT: '471F0000-0000-0000-2200-000000000000'
+[0-1]   }
+[0-1] ]
+[0-1] 2025-09-15T18:57:26.423Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:57:26.424Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:57:26.424Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] 2025-09-15T18:57:26.877Z INFO webdriver: RESULT {
+[0-1]   'element-6066-11e4-a52e-4f735466cecf': '471F0000-0000-0000-2200-000000000000',
+[0-1]   ELEMENT: '471F0000-0000-0000-2200-000000000000'
+[0-1] }
+[0-1] 2025-09-15T18:57:26.879Z INFO webdriver: COMMAND elementClick("471F0000-0000-0000-2200-000000000000")
+[0-1] 2025-09-15T18:57:26.879Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element/471F0000-0000-0000-2200-000000000000/click
+[0-1] 2025-09-15T18:57:27.680Z INFO webdriver: RESULT null
+[0-1] 2025-09-15T18:57:27.681Z INFO webdriver: COMMAND findElement("accessibility id", "Close")
+[0-1] 2025-09-15T18:57:27.681Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:57:27.681Z INFO webdriver: DATA { using: 'accessibility id', value: 'Close' }
+[0-1] 2025-09-15T18:57:28.205Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:57:28.206Z INFO webdriver: COMMAND findElements("accessibility id", "Close")
+[0-1] 2025-09-15T18:57:28.206Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/elements
+[0-1] 2025-09-15T18:57:28.206Z INFO webdriver: DATA { using: 'accessibility id', value: 'Close' }
+[0-1] 2025-09-15T18:57:28.734Z INFO webdriver: RESULT []
+[0-1] 2025-09-15T18:57:28.736Z INFO webdriver: COMMAND findElements("accessibility id", "Close")
+[0-1] 2025-09-15T18:57:28.736Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/elements
+[0-1] 2025-09-15T18:57:28.736Z INFO webdriver: DATA { using: 'accessibility id', value: 'Close' }
+[0-1] 2025-09-15T18:57:30.198Z INFO webdriver: RESULT []
+[0-1] 2025-09-15T18:57:30.201Z INFO webdriver: COMMAND findElements("accessibility id", "Close")
+[0-1] 2025-09-15T18:57:30.201Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/elements
+[0-1] 2025-09-15T18:57:30.201Z INFO webdriver: DATA { using: 'accessibility id', value: 'Close' }
+[0-1] 2025-09-15T18:57:30.742Z INFO webdriver: RESULT []
+[0-1] 2025-09-15T18:57:30.745Z INFO webdriver: COMMAND findElements("accessibility id", "Close")
+[0-1] 2025-09-15T18:57:30.745Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/elements
+[0-1] 2025-09-15T18:57:30.745Z INFO webdriver: DATA { using: 'accessibility id', value: 'Close' }
+[0-1] 2025-09-15T18:57:31.295Z INFO webdriver: RESULT []
+[0-1] 2025-09-15T18:57:31.297Z INFO webdriver: COMMAND findElements("accessibility id", "Close")
+[0-1] 2025-09-15T18:57:31.297Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/elements
+[0-1] 2025-09-15T18:57:31.297Z INFO webdriver: DATA { using: 'accessibility id', value: 'Close' }
+[0-1] 2025-09-15T18:57:31.840Z INFO webdriver: RESULT []
+[0-1] 2025-09-15T18:57:31.842Z INFO webdriver: COMMAND findElements("accessibility id", "Close")
+[0-1] 2025-09-15T18:57:31.842Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/elements
+[0-1] 2025-09-15T18:57:31.842Z INFO webdriver: DATA { using: 'accessibility id', value: 'Close' }
+[0-1] 2025-09-15T18:57:32.387Z INFO webdriver: RESULT []
+[0-1] 2025-09-15T18:57:32.389Z INFO webdriver: COMMAND findElements("accessibility id", "Close")
+[0-1] 2025-09-15T18:57:32.389Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/elements
+[0-1] 2025-09-15T18:57:32.389Z INFO webdriver: DATA { using: 'accessibility id', value: 'Close' }
+[0-1] 2025-09-15T18:57:32.945Z INFO webdriver: RESULT []
+[0-1] 2025-09-15T18:57:32.947Z INFO webdriver: COMMAND findElements("accessibility id", "Close")
+[0-1] 2025-09-15T18:57:32.947Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/elements
+[0-1] 2025-09-15T18:57:32.948Z INFO webdriver: DATA { using: 'accessibility id', value: 'Close' }
+[0-1] 2025-09-15T18:57:33.499Z INFO webdriver: RESULT []
+[0-1] 2025-09-15T18:57:33.502Z INFO webdriver: COMMAND findElements("accessibility id", "Close")
+[0-1] 2025-09-15T18:57:33.502Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/elements
+[0-1] 2025-09-15T18:57:33.502Z INFO webdriver: DATA { using: 'accessibility id', value: 'Close' }
+[0-1] 2025-09-15T18:57:34.050Z INFO webdriver: RESULT []
+[0-1] 2025-09-15T18:57:34.053Z INFO webdriver: COMMAND findElements("accessibility id", "Close")
+[0-1] 2025-09-15T18:57:34.053Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/elements
+[0-1] 2025-09-15T18:57:34.053Z INFO webdriver: DATA { using: 'accessibility id', value: 'Close' }
+[0-1] 2025-09-15T18:57:34.600Z INFO webdriver: RESULT []
+[0-1] 2025-09-15T18:57:34.601Z INFO webdriver: COMMAND findElements("accessibility id", "Close")
+[0-1] 2025-09-15T18:57:34.601Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/elements
+[0-1] 2025-09-15T18:57:34.601Z INFO webdriver: DATA { using: 'accessibility id', value: 'Close' }
+[0-1] 2025-09-15T18:57:35.147Z INFO webdriver: RESULT []
+[0-1] 2025-09-15T18:57:35.150Z INFO webdriver: COMMAND findElements("accessibility id", "Close")
+[0-1] 2025-09-15T18:57:35.150Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/elements
+[0-1] 2025-09-15T18:57:35.150Z INFO webdriver: DATA { using: 'accessibility id', value: 'Close' }
+[0-1] 2025-09-15T18:57:35.694Z INFO webdriver: RESULT []
+[0-1] 2025-09-15T18:57:35.697Z INFO webdriver: COMMAND findElements("accessibility id", "Close")
+[0-1] 2025-09-15T18:57:35.697Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/elements
+[0-1] 2025-09-15T18:57:35.697Z INFO webdriver: DATA { using: 'accessibility id', value: 'Close' }
+[0-1] 2025-09-15T18:57:36.224Z INFO webdriver: RESULT []
+[0-1] 2025-09-15T18:57:36.227Z INFO webdriver: COMMAND findElements("accessibility id", "Close")
+[0-1] 2025-09-15T18:57:36.227Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/elements
+[0-1] 2025-09-15T18:57:36.227Z INFO webdriver: DATA { using: 'accessibility id', value: 'Close' }
+[0-1] 2025-09-15T18:57:36.782Z INFO webdriver: RESULT []
+[0-1] 2025-09-15T18:57:36.785Z INFO webdriver: COMMAND findElements("accessibility id", "Close")
+[0-1] 2025-09-15T18:57:36.785Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/elements
+[0-1] 2025-09-15T18:57:36.785Z INFO webdriver: DATA { using: 'accessibility id', value: 'Close' }
+[0-1] 2025-09-15T18:57:37.325Z INFO webdriver: RESULT []
+[0-1] 2025-09-15T18:57:37.328Z INFO webdriver: COMMAND findElements("accessibility id", "Close")
+[0-1] 2025-09-15T18:57:37.328Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/elements
+[0-1] 2025-09-15T18:57:37.328Z INFO webdriver: DATA { using: 'accessibility id', value: 'Close' }
+[0-1] 2025-09-15T18:57:37.875Z INFO webdriver: RESULT []
+[0-1] 2025-09-15T18:57:37.878Z INFO webdriver: COMMAND findElements("accessibility id", "Close")
+[0-1] 2025-09-15T18:57:37.878Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/elements
+[0-1] 2025-09-15T18:57:37.878Z INFO webdriver: DATA { using: 'accessibility id', value: 'Close' }
+[0-1] 2025-09-15T18:57:38.424Z INFO webdriver: RESULT []
+[0-1] 2025-09-15T18:57:38.428Z INFO webdriver: COMMAND findElements("accessibility id", "Close")
+[0-1] 2025-09-15T18:57:38.428Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/elements
+[0-1] 2025-09-15T18:57:38.428Z INFO webdriver: DATA { using: 'accessibility id', value: 'Close' }
+[0-1] 2025-09-15T18:57:38.999Z INFO webdriver: RESULT []
+[0-1] 2025-09-15T18:57:39.002Z INFO webdriver: COMMAND findElements("accessibility id", "Close")
+[0-1] 2025-09-15T18:57:39.002Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/elements
+[0-1] 2025-09-15T18:57:39.002Z INFO webdriver: DATA { using: 'accessibility id', value: 'Close' }
+[0-1] 2025-09-15T18:57:39.539Z INFO webdriver: RESULT []
+[0-1] 2025-09-15T18:57:39.542Z INFO webdriver: COMMAND findElements("accessibility id", "Close")
+[0-1] 2025-09-15T18:57:39.542Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/elements
+[0-1] 2025-09-15T18:57:39.542Z INFO webdriver: DATA { using: 'accessibility id', value: 'Close' }
+[0-1] 2025-09-15T18:57:40.090Z INFO webdriver: RESULT []
+[0-1] 2025-09-15T18:57:40.092Z INFO webdriver: COMMAND findElements("accessibility id", "Close")
+[0-1] 2025-09-15T18:57:40.093Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/elements
+[0-1] 2025-09-15T18:57:40.093Z INFO webdriver: DATA { using: 'accessibility id', value: 'Close' }
+[0-1] 2025-09-15T18:57:40.639Z INFO webdriver: RESULT []
+[0-1] 2025-09-15T18:57:40.641Z INFO webdriver: COMMAND findElements("accessibility id", "Close")
+[0-1] 2025-09-15T18:57:40.642Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/elements
+[0-1] 2025-09-15T18:57:40.642Z INFO webdriver: DATA { using: 'accessibility id', value: 'Close' }
+[0-1] 2025-09-15T18:57:41.176Z INFO webdriver: RESULT []
+[0-1] 2025-09-15T18:57:41.177Z INFO webdriver: COMMAND findElements("accessibility id", "Close")
+[0-1] 2025-09-15T18:57:41.177Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/elements
+[0-1] 2025-09-15T18:57:41.177Z INFO webdriver: DATA { using: 'accessibility id', value: 'Close' }
+[0-1] 2025-09-15T18:57:41.716Z INFO webdriver: RESULT []
+[0-1] 2025-09-15T18:57:41.718Z INFO webdriver: COMMAND findElements("accessibility id", "Close")
+[0-1] 2025-09-15T18:57:41.718Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/elements
+[0-1] 2025-09-15T18:57:41.718Z INFO webdriver: DATA { using: 'accessibility id', value: 'Close' }
+[0-1] 2025-09-15T18:57:42.273Z INFO webdriver: RESULT []
+[0-1] 2025-09-15T18:57:42.276Z INFO webdriver: COMMAND findElements("accessibility id", "Close")
+[0-1] 2025-09-15T18:57:42.276Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/elements
+[0-1] 2025-09-15T18:57:42.276Z INFO webdriver: DATA { using: 'accessibility id', value: 'Close' }
+[0-1] 2025-09-15T18:57:42.815Z INFO webdriver: RESULT []
+[0-1] 2025-09-15T18:57:42.817Z INFO webdriver: COMMAND findElements("accessibility id", "Close")
+[0-1] 2025-09-15T18:57:42.817Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/elements
+[0-1] 2025-09-15T18:57:42.817Z INFO webdriver: DATA { using: 'accessibility id', value: 'Close' }
+[0-1] No add popup button found
+[0-1] 2025-09-15T18:57:43.209Z INFO @wdio/browserstack-service: Update job with sessionId 6abf4ba213981d836552755ee0e149a39a9fef3b
+[0-1] 2025-09-15T18:57:43.356Z INFO webdriver: RESULT []
+[0-1] 2025-09-15T18:57:44.723Z INFO webdriver: COMMAND executeScript("browserstack_executor: {"action":"annotate","arguments":{"data":"Test: returning guest user with saved address accepting location permission","level":"info"}}", <object>)
+[0-1] 2025-09-15T18:57:44.723Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/execute/sync
+[0-1] 2025-09-15T18:57:44.723Z INFO webdriver: DATA {
+[0-1]   script: 'browserstack_executor: {"action":"annotate","arguments":{"data":"Test: returning guest user with saved address accepting location permission","level":"info"}}',
+[0-1]   args: []
+[0-1] }
+[0-1] 2025-09-15T18:57:44.950Z INFO webdriver: RESULT Test: returning guest user with saved address accepting location permission
+[0-1] 2025-09-15T18:57:44.952Z INFO webdriver: COMMAND findElement("accessibility id", "New York City")
+[0-1] 2025-09-15T18:57:44.952Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:57:44.952Z INFO webdriver: DATA { using: 'accessibility id', value: 'New York City' }
+[0-1] 2025-09-15T18:57:46.479Z INFO webdriver: RESULT {
+[0-1]   'element-6066-11e4-a52e-4f735466cecf': 'B5000000-0000-0000-AC0D-000000000000',
+[0-1]   ELEMENT: 'B5000000-0000-0000-AC0D-000000000000'
+[0-1] }
+[0-1] 2025-09-15T18:57:46.482Z INFO webdriver: COMMAND isElementDisplayed("B5000000-0000-0000-AC0D-000000000000")
+[0-1] 2025-09-15T18:57:46.482Z INFO webdriver: [GET] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element/B5000000-0000-0000-AC0D-000000000000/displayed
+[0-1] 2025-09-15T18:57:47.054Z INFO webdriver: RESULT true
+[0-1] 2025-09-15T18:57:47.055Z INFO webdriver: COMMAND executeScript("mobile: activeAppInfo", <object>)
+[0-1] 2025-09-15T18:57:47.056Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/execute/sync
+[0-1] 2025-09-15T18:57:47.056Z INFO webdriver: DATA { script: 'mobile: activeAppInfo', args: [] }
+[0-1] 2025-09-15T18:57:47.500Z INFO webdriver: RESULT {
+[0-1]   processArguments: { env: {}, args: [] },
+[0-1]   name: '',
+[0-1]   pid: 3500,
+[0-1]   bundleId: 'com.groupon.grouponapp'
+[0-1] }
+[0-1] 2025-09-15T18:57:47.501Z INFO webdriver: COMMAND executeScript("mobile: terminateApp", <object>)
+[0-1] 2025-09-15T18:57:47.501Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/execute/sync
+[0-1] 2025-09-15T18:57:47.501Z INFO webdriver: DATA {
+[0-1]   script: 'mobile: terminateApp',
+[0-1]   args: [ { bundleId: 'com.groupon.grouponapp' } ]
+[0-1] }
+[0-1] 2025-09-15T18:57:48.779Z INFO webdriver: RESULT true
+[0-1] 2025-09-15T18:57:48.780Z INFO webdriver: COMMAND executeScript("mobile:launchApp", <object>)
+[0-1] 2025-09-15T18:57:48.780Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/execute/sync
+[0-1] 2025-09-15T18:57:48.780Z INFO webdriver: DATA {
+[0-1]   script: 'mobile:launchApp',
+[0-1]   args: [ { bundleId: 'com.groupon.grouponapp' } ]
+[0-1] }
+[0-1] 2025-09-15T18:57:50.225Z INFO webdriver: RESULT null
+[0-1] 2025-09-15T18:57:50.226Z INFO webdriver: COMMAND findElement("accessibility id", "Enable")
+[0-1] 2025-09-15T18:57:50.226Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:57:50.226Z INFO webdriver: DATA { using: 'accessibility id', value: 'Enable' }
+[0-1] 2025-09-15T18:57:50.566Z INFO webdriver: RESULT {
+[0-1]   error: 'no such element',
+[0-1]   message: 'An element could not be located on the page using the given search parameters.',
+[0-1]   stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+[0-1]     '    at XCUITestDriver.doNativeFind (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+[0-1]     '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+[0-1]     '    at XCUITestDriver.findNativeElementOrElements (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+[0-1]     '    at XCUITestDriver.findElOrEls (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/appium/xcuitest/9.2.4/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+[0-1]     '    at XCUITestDriver.findElOrElsWithProcessing (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+[0-1]     '    at XCUITestDriver.findElement (/nix/store/zk0b9liqqx4rvsiqdd5mjmlrkn6caga2-appium-2.18.0/packages/base-driver/lib/basedriver/commands/find.ts:75:12)'
+[0-1] }
+[0-1] 2025-09-15T18:57:50.568Z INFO webdriver: COMMAND findElements("accessibility id", "Enable")
+[0-1] 2025-09-15T18:57:50.568Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/elements
+[0-1] 2025-09-15T18:57:50.568Z INFO webdriver: DATA { using: 'accessibility id', value: 'Enable' }
+[0-1] 2025-09-15T18:57:50.897Z INFO webdriver: RESULT []
+[0-1] 2025-09-15T18:57:50.899Z INFO webdriver: COMMAND findElements("accessibility id", "Enable")
+[0-1] 2025-09-15T18:57:50.900Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/elements
+[0-1] 2025-09-15T18:57:50.900Z INFO webdriver: DATA { using: 'accessibility id', value: 'Enable' }
+[0-1] 2025-09-15T18:57:51.195Z INFO webdriver: RESULT []
+[0-1] 2025-09-15T18:57:51.197Z INFO webdriver: COMMAND findElements("accessibility id", "Enable")
+[0-1] 2025-09-15T18:57:51.197Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/elements
+[0-1] 2025-09-15T18:57:51.197Z INFO webdriver: DATA { using: 'accessibility id', value: 'Enable' }
+[0-1] 2025-09-15T18:57:51.488Z INFO webdriver: RESULT []
+[0-1] 2025-09-15T18:57:51.491Z INFO webdriver: COMMAND findElements("accessibility id", "Enable")
+[0-1] 2025-09-15T18:57:51.491Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/elements
+[0-1] 2025-09-15T18:57:51.491Z INFO webdriver: DATA { using: 'accessibility id', value: 'Enable' }
+[0-1] 2025-09-15T18:57:51.786Z INFO webdriver: RESULT []
+[0-1] 2025-09-15T18:57:51.789Z INFO webdriver: COMMAND findElements("accessibility id", "Enable")
+[0-1] 2025-09-15T18:57:51.789Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/elements
+[0-1] 2025-09-15T18:57:51.789Z INFO webdriver: DATA { using: 'accessibility id', value: 'Enable' }
+[0-1] No tracking pop-up found
+[0-1] 2025-09-15T18:58:05.569Z INFO webdriver: COMMAND findElement("accessibility id", "Allow")
+[0-1] 2025-09-15T18:58:05.569Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:58:05.569Z INFO webdriver: DATA { using: 'accessibility id', value: 'Allow' }
+[0-1] No tracking pop-up found
+[0-1] 2025-09-15T18:59:05.571Z INFO webdriver: COMMAND findElement("accessibility id", "Close")
+[0-1] 2025-09-15T18:59:05.571Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T18:59:05.571Z INFO webdriver: DATA { using: 'accessibility id', value: 'Close' }
+[0-1] No add popup button found
+[0-1] 2025-09-15T19:00:05.574Z INFO webdriver: COMMAND findElement("accessibility id", "New York City")
+[0-1] 2025-09-15T19:00:05.574Z INFO webdriver: [POST] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b/element
+[0-1] 2025-09-15T19:00:05.574Z INFO webdriver: DATA { using: 'accessibility id', value: 'New York City' }
+[0-1] Error in "Location.City change tests.returning guest user with saved address accepting location permission"
+Error: WebDriverError: The operation was aborted due to timeout when running "element" with method "POST" and args "{"using":"accessibility id","value":"New York City"}"
+    at async Object.executeCommandBe (file:///home/mariano/repos/browserstack-app-startup-issue/node_modules/expect-webdriverio/lib/utils.js:62:14)
+    at async Object.toBeDisplayed (file:///home/mariano/repos/browserstack-app-startup-issue/node_modules/expect-webdriverio/lib/matchers/element/toBeDisplayed.js:9:20)
+    at async Context.<anonymous> (/home/mariano/repos/browserstack-app-startup-issue/test/e2e/location.e2e.js:20:7)
+[0-1] 2025-09-15T19:01:05.638Z INFO @wdio/browserstack-service: Update job with sessionId 6abf4ba213981d836552755ee0e149a39a9fef3b
+[0-1] 2025-09-15T19:01:07.204Z INFO webdriver: COMMAND deleteSession()
+[0-1] 2025-09-15T19:01:07.204Z INFO webdriver: [DELETE] https://hub.browserstack.com/wd/hub/session/6abf4ba213981d836552755ee0e149a39a9fef3b
+[0-1] 2025-09-15T19:01:08.788Z INFO webdriver: RESULT
+[0-1] FAILED in iOS on iOS - file:///test/e2e/location.e2e.js
+2025-09-15T19:01:08.912Z INFO @wdio/cli:launcher: Run onWorkerEnd hook
+
+ "spec" Reporter:
+------------------------------------------------------------------
+[iOS #0-1] Running: on iOS
+[iOS #0-1] Session ID: 6abf4ba213981d836552755ee0e149a39a9fef3b
+[iOS #0-1]
+[iOS #0-1] » test/e2e/location.e2e.js
+[iOS #0-1] Location
+[iOS #0-1]     City change tests
+[iOS #0-1]        ✖ returning guest user with saved address accepting location permission
+[iOS #0-1]
+[iOS #0-1] 1 failing (4m 23s)
+[iOS #0-1]
+[iOS #0-1] 1) City change tests returning guest user with saved address accepting location permission
+[iOS #0-1] WebDriverError: The operation was aborted due to timeout when running "element" with method "POST" and args "{"using":"accessibility id","value":"New York City"}"
+[iOS #0-1] Error: WebDriverError: The operation was aborted due to timeout when running "element" with method "POST" and args "{"using":"accessibility id","value":"New York City"}"
+[iOS #0-1]     at async Object.executeCommandBe (file:///home/mariano/repos/browserstack-app-startup-issue/node_modules/expect-webdriverio/lib/utils.js:62:14)
+[iOS #0-1]     at async Object.toBeDisplayed (file:///home/mariano/repos/browserstack-app-startup-issue/node_modules/expect-webdriverio/lib/matchers/element/toBeDisplayed.js:9:20)
+[iOS #0-1]     at async Context.<anonymous> (/home/mariano/repos/browserstack-app-startup-issue/test/e2e/location.e2e.js:20:7)
+
+
+Spec Files:      0 passed, 1 failed, 1 skipped, 2 total (100% completed) in 00:05:11
